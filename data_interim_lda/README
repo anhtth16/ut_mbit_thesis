@@ -1,0 +1,5 @@
+This folder contains all interim data relating to Latent Dirichlet Association in feature engineering:
+- File name: _desc: job description, _req: job requirements, _title: job titles, _user_history: user work history
+- LDA Models: extension: .model
+- Feature names of LDA models: extension: .fnames
+- Raw data (text) combined with LDA features after (dominant topic)

@@ -1,1 +1,4 @@
 
+This folder contain output of pre-trained models for binary classification tasks
+- White-box models: logreg, dt, nb
+- Black-box models: XGBT, QDA, LDA, ADA

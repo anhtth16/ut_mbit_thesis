@@ -1,0 +1,5 @@
+
+This folder contain notebook for training ensemble explainable models for binary classification tasks
+
+- EBM: ebm_location, ebm_side_info, ebm_extended
+- DPEBM: dpebm_location, dpebm_side_info, dpebm_extended
