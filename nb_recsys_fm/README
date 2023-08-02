@@ -1,0 +1,13 @@
+
+This folder contain all notebook for recommendation system using Factorization Machine models
+
+Pyfiles: make_feature_myfm_ranking.py, topN_myfm_single.py (can be loaded from utils folder)
+
+Input: 
+- Pre-trained Factorization machine models: 4 models (large pickle files, > 10GB/model)
+- Source of potential applications: ranking_data_knn_lda_v2.csv and ranking_data_random.csv
+- Total of top-N experiment: 8
+
+Output: top 20 applications for each user
+
+Evaluation: hit_rate@5, @10, @20
