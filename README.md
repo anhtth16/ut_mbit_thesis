@@ -1,4 +1,4 @@
-# ut_mbit_thesis
+# ut_mbit_thesis (TO BE UPDATE)
 Graduation thesis project
 Title: Explainable AI in Job Recommendation System
 Data: Kaggle's CareerBuilder 2012
