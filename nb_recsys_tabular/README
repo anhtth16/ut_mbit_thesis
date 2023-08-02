@@ -1,0 +1,12 @@
+This folder contain notebook to implement recommendation system using TF-IDF features.
+Models:
+- White-box: LogReg, DT, NB
+- Black-box: XGBT, ADA, LDA, QDA
+
+Source of potential applications: maximum 100 potential applications per user
+- knn_tfdif
+- random_ranking data
+
+Output:
+Top 20 jobs/user
+Rank by probability of the predicted class

@@ -1,0 +1,11 @@
+
+This folder contain all notebook for recommendation system using EBM and DPEBM models
+
+Input: 
+- Pre-trained EBM and DEPEBM models: 6 models
+- Source of potential applications: ranking_data_knn_lda_v2.csv and ranking_data_random.csv
+- Total of experiment: 12
+
+Output: top 20 applications for each user
+
+Evaluation: hit_rate@5, @10, @20

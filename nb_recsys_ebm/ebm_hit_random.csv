@@ -1,0 +1,13 @@
+model,hit_5,hit_10,hit_20,benchmark
+ebm_location,1.0,1.0,1.0,ranking_data_random
+ebm_side_info,0.13885898815931108,0.2448869752421959,0.36141011840688914,ranking_data_random
+ebm_extended,0.8893972012917115,0.8904736275565124,0.9058127018299247,ranking_data_random
+ebm_location,0.0,0.0,0.0,ranking_knn_lda
+ebm_side_info,0.0,0.0,0.0,ranking_knn_lda
+ebm_extended,0.0,0.0,0.0,ranking_knn_lda
+ebm_location,1.0,1.0,1.0,actual_test_interaction
+ebm_side_info,0.13885898815931108,0.2448869752421959,0.36141011840688914,actual_test_interaction
+ebm_extended,0.8893972012917115,0.8904736275565124,0.9058127018299247,actual_test_interaction
+ebm_location,1.0,1.0,1.0,all_interaction_data
+ebm_side_info,0.13885898815931108,0.2448869752421959,0.36141011840688914,all_interaction_data
+ebm_extended,0.8893972012917115,0.8904736275565124,0.9058127018299247,all_interaction_data
