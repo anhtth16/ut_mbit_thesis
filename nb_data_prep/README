@@ -1,0 +1,7 @@
+This folder contain notebook for data preprocessing and feature engineering.
+The flow of execution is as below:
+- data cleaning
+- negative_sampling: apply on application data to generate label 0
+- feature_engineering_tfidf: transform job details and user work history to TF-IDF vectors, compute location matching features
+- lda_jobs, lda_users: transform job details and user work history using Latent Dirichlet Association
+- discretize_data: transform continuous features of user profile to categorical (combined with LDA)

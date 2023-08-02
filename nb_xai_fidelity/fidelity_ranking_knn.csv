@@ -1,0 +1,15 @@
+source_rec,xai_rec,avg_fidelity
+fm_extended,ebm_extended,0.46327553508534275
+fm_side_info,ebm_side_info,0.31150094825250607
+fm_match,ebm_location,0.21784069357897587
+fm_extended,dpebm_extended,0.37900298022216206
+fm_side_info,dpebm_side_info,0.21216472500677322
+fm_match,dpebm_location,0.21782714711460308
+xgbt,ebm_extended,0.011528041181251692
+ada,ebm_extended,0.011284204822541319
+lda,ebm_extended,0.011379030073150907
+qda,ebm_extended,0.01009211595773503
+xgbt,dpebm_extended,0.012083446220536443
+ada,dpebm_extended,0.010796532105120563
+lda,dpebm_extended,0.010755892712002169
+qda,dpebm_extended,0.009658629097805474
