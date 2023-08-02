@@ -1,0 +1,5 @@
+
+This folder contain all Python modules for building recommendation systems.
+- System using TF-IDF features: topN_flat.py
+- System using factorization machine models: make_features_myfm_ranking.py, topN_myfm_single.py
+- Systems using EBM/ DPEBM models: topN_ebm_random.py, topN_ebm.py
