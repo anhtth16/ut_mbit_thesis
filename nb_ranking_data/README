@@ -1,0 +1,12 @@
+#Generate potential applications
+This folder contains scripts for generating potential applications (ranking data).
+(Thesis section 4.2: Generate potential applications)
+
+INPUT: 3,716 test users
+
+OUTPUT: Shortlist maximum 100 potential applications/user
+3 types of ranking data:
+- knn_tfidf_ranking: unsupervised KNN on TF-IDF and numeric features, using Cosine similarity
+- knn_lda_ranking: unsupervised KNN on LDA and categorical features, using Hamming distance metric
+_ random_ranking: random sampling with controlled percentage of positive label
+
