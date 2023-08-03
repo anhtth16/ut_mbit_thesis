@@ -1,4 +1,4 @@
-# TopN-recommendation output
+#TopN-recommendation output
 
 This folder contain output of TopN recommendation tasks by White-box and Black-box models:
 - White-box: Logistic Regression (logreg), Decision Tree (dt), Gaussian Naive Bases (nb)
@@ -10,3 +10,5 @@ Each model is combined with 2 options of potential applications:
 
 
 Total: 7 models x 2 sources of applications = 14 output files
+
+Evaluation output: hit_rate@5, 10, 20 for all recommendation system.
