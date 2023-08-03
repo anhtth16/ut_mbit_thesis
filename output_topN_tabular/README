@@ -1,0 +1,12 @@
+# TopN-recommendation output
+
+This folder contain output of TopN recommendation tasks by White-box and Black-box models:
+- White-box: Logistic Regression (logreg), Decision Tree (dt), Gaussian Naive Bases (nb)
+- Black-box models: XGBoost (xgbt), Linear Discriminant Analysis (lda), Quadratic Discriminant Analysis (ada), AdaBoost (ada)
+
+Each model is combined with 2 options of potential applications:
+- knn_ranking_tfidf (v2)
+- random_ranking
+
+
+Total: 7 models x 2 sources of applications = 14 output files
