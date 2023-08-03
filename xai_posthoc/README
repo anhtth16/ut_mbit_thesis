@@ -1,0 +1,9 @@
+This folder contains scripts of post-hoc analysis on recommendation systems
+- Two approaches: Kernel SHAP and LIME
+- Post-hoc analysis was performed on sample of 20 test applications to generate local explanation (feature weights or Shapley values)
+- Total experiments: 13 experiments/method
+	- White-box: logreg, dt, nb
+	- Black-box: xgbt, ada, lda, qda
+	- Factorization Machines: NOT APPLICABLE
+	- EBM: location, side_info, extended
+	- DPEBM: location, side_info, extended
