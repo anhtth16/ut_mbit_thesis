@@ -1,0 +1,11 @@
+This folder contains all interim data relating to TF-IDF feature engineering process:
+- TF-IDF models: job_tf.pickle, work_history_tf.pickle
+- TF-IDF output vectors: tfidf_matrix.npz (job) and work_history_tf_matrix.npz (work history)
+- Training and testing data in vector:
+X_train_159, X_test_159, Y_train_159, Y_test_159: these are used for training binary classification model using random ranking data.
+
+
+LARGE FILE (pending upload)
+- job_tf.pickle
+- tfidf_matrix.npz
+- X_train_159.npz
