@@ -1,8 +1,60 @@
-# ut_mbit_thesis (TO BE UPDATE)
-Graduation thesis project
-Title: Explainable AI in Job Recommendation System
-Data: Kaggle's CareerBuilder 2012
+# MBIT thesis: Explainable AI in Job Recommendation Systems (TO BE UPDATE)
+Graduation thesis project: Title: Explainable AI in Job Recommendation System <br>
+Data: [Kaggle's CareerBuilder 2012](https://www.kaggle.com/c/job-recommendation) <br>
+**Requirements: important libraries**
+
+- sklearn, pandas, numpy
+- [myfm](https://myfm.readthedocs.io/en/stable/)
+- [interpretml](https://interpret.ml/docs/getting-started)
+- [SHAP](https://shap-lrjball.readthedocs.io/en/latest/index.html)
+- [LIME](https://lime-ml.readthedocs.io/en/latest/)
 
 # Navigation guidelines:
+
+CHECK LIST (based on Table Of Content) of the report (hyperlink to the repo)
+### 4.1: Data pre-processing and Feature Engineering: [folder](https://github.com/anhtth16/ut_mbit_thesis/tree/main/nb_data_prep)
+- 4.1.1 Data cleaning 
+- 4.1.2 Data augmentation: Negative sampling for interaction data - [link](https://github.com/anhtth16/ut_mbit_thesis/blob/main/nb_data_prep/negative_sampling.ipynb)
+
+Feature Engineering:
+
+TFIDF for both jobs and user history - [link](https://github.com/anhtth16/ut_mbit_thesis/blob/main/nb_data_prep/feature_engineering_tfidf.ipynb) 
+
+- 4.1.4 Feature Engineering: Generate location matching features 
+- 4.1.5 Feature Engineering: Transform text features
+
+LDA for jobs - [link](https://github.com/anhtth16/ut_mbit_thesis/blob/main/nb_data_prep/lda_jobs.ipynb), LDA for user history - [link](https://github.com/anhtth16/ut_mbit_thesis/blob/main/nb_data_prep/lda_users.ipynb)
+
+- 4.1.6 Feature Engineering: Discretizing user profile features: [link](https://github.com/anhtth16/ut_mbit_thesis/blob/main/nb_data_prep/discretize_data.ipynb)
+
+### 4.2 Generating potential applications: [folder](https://github.com/anhtth16/ut_mbit_thesis/tree/main/nb_ranking_data)
+
+- 4.2.1 Potential application generation by random sampling with control on positive label
+- 4.2.2 Potential application generation by unsupervised KNN models (2 variations: knn\_lda, knn\_tfidf)
+
+### 4.3 Training ranking models:
+- White-Box, Black-box models: 7 models [link](https://github.com/anhtth16/ut_mbit_thesis/tree/main/nb_baseline_tabular)
+- Factorization Machine models: 4 variations [link](https://github.com/anhtth16/ut_mbit_thesis/tree/main/nb_myfm)
+- Explanable Boosting Machine models: 6 models [link](https://github.com/anhtth16/ut_mbit_thesis/tree/main/xai_recsys)
+
+### 4.4 Finalize ranking results and evaluation JRS
+Generate recommendation results (top 20 jobs/user) <br>
+Total experiments: \#_models in section 4.3 * \#_potential applications dataset:
+
+- White-box & Black-box [link](https://github.com/anhtth16/ut_mbit_thesis/tree/main/nb_recsys_tabular)
+- FM [link](https://github.com/anhtth16/ut_mbit_thesis/tree/main/nb_recsys_fm)
+- EBM & DPEBM [link](https://github.com/anhtth16/ut_mbit_thesis/tree/main/nb_recsys_ebm)
+
+### 4.5 Explaining recommendations:
+- 4.5.2 Global explanation by model-specific approach: EBM models [link](https://github.com/anhtth16/ut_mbit_thesis/tree/main/nb_self_explanation)
+- 4.5.3 Global explanation by model-specific approach: DPEBM models [link](https://github.com/anhtth16/ut_mbit_thesis/tree/main/nb_self_explanation)
+- 4.5.4 Global self-explanation by white-box models and XGBoost [link](https://github.com/anhtth16/ut_mbit_thesis/tree/main/nb_self_explanation)
+- 4.5.5 KernelSHAP: Local feature importance [link](https://github.com/anhtth16/ut_mbit_thesis/tree/main/xai_posthoc)
+- 4.5.6 LIME: Localfeature importance [link](https://github.com/anhtth16/ut_mbit_thesis/tree/main/xai_posthoc)
+
+### 4.6 Evaluation explanation
+
+- 4.6.1 Modelfidelity rate-Global explanation [link](https://github.com/anhtth16/ut_mbit_thesis/tree/main/nb_xai_fidelity)
+- 4.6.2 Feature importance fidelity rate - Local explanation  [link](https://github.com/anhtth16/ut_mbit_thesis/tree/main/nb_xai_fidelity)
 
 # Reproducing guidelines:
