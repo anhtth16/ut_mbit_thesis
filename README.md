@@ -9,6 +9,10 @@ Data: [Kaggle's CareerBuilder 2012](https://www.kaggle.com/c/job-recommendation)
 - [SHAP](https://shap-lrjball.readthedocs.io/en/latest/index.html)
 - [LIME](https://lime-ml.readthedocs.io/en/latest/)
 
+Apart from public libraries, please import modules in [utils](https://github.com/anhtth16/ut_mbit_thesis/tree/main/utils) folder for generating recommmendations
+
+High-resolution figures in the report: [link](https://github.com/anhtth16/ut_mbit_thesis/tree/main/figures_overleaf)
+
 # Navigation guidelines:
 
 CHECK LIST (based on Table Of Content) of the report (hyperlink to the repo)
