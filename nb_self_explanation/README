@@ -1,0 +1,11 @@
+This folder contain scripts of self explanation including:
+
+- Global explanations: Models trained on TF-IDF features with self-explanation:
+	- Logistic Regression: Feature Importance
+	- Decision Tree: Feature Importance
+	- XGBoost
+- Model-specific approaches using interpretml library: both global and local
+	- EBM models: 3 variations
+	- DPEBM models: 3 variations
+
+- Extract GLOBAL feature importance score for all models
