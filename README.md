@@ -17,6 +17,8 @@ High-resolution figures in the report: [link](https://github.com/anhtth16/ut_mbi
 
 CHECK LIST (based on Table Of Content) of the report (hyperlink to the repo)
 ### 4.1: Data pre-processing and Feature Engineering: [folder](https://github.com/anhtth16/ut_mbit_thesis/tree/main/nb_data_prep)
+**PENDING OUPTUT (Large dataset)**
+
 - 4.1.1 Data cleaning 
 - 4.1.2 Data augmentation: Negative sampling for interaction data - [link](https://github.com/anhtth16/ut_mbit_thesis/blob/main/nb_data_prep/negative_sampling.ipynb)
 
@@ -31,17 +33,19 @@ LDA for jobs - [link](https://github.com/anhtth16/ut_mbit_thesis/blob/main/nb_da
 
 - 4.1.6 Feature Engineering: Discretizing user profile features: [link](https://github.com/anhtth16/ut_mbit_thesis/blob/main/nb_data_prep/discretize_data.ipynb)
 
-### 4.2 Generating potential applications: [folder](https://github.com/anhtth16/ut_mbit_thesis/tree/main/nb_ranking_data)
+### 4.2: Generating potential applications: [folder](https://github.com/anhtth16/ut_mbit_thesis/tree/main/nb_ranking_data)
 
 - 4.2.1 Potential application generation by random sampling with control on positive label
 - 4.2.2 Potential application generation by unsupervised KNN models (2 variations: knn\_lda, knn\_tfidf)
 
-### 4.3 Training ranking models:
+### 4.3: Training ranking models:
+**PENDING OUPTUT (Large pre-trained models - FM)**
+
 - White-Box, Black-box models: 7 models [link](https://github.com/anhtth16/ut_mbit_thesis/tree/main/nb_baseline_tabular)
 - Factorization Machine models: 4 variations [link](https://github.com/anhtth16/ut_mbit_thesis/tree/main/nb_myfm)
 - Explanable Boosting Machine models: 6 models [link](https://github.com/anhtth16/ut_mbit_thesis/tree/main/xai_recsys)
 
-### 4.4 Finalize ranking results and evaluation JRS
+### 4.4: Finalize ranking results and evaluation JRS
 Generate recommendation results (top 20 jobs/user) <br>
 Total experiments: \#_models in section 4.3 * \#_potential applications dataset:
 
@@ -49,16 +53,22 @@ Total experiments: \#_models in section 4.3 * \#_potential applications dataset:
 - FM [link](https://github.com/anhtth16/ut_mbit_thesis/tree/main/nb_recsys_fm)
 - EBM & DPEBM [link](https://github.com/anhtth16/ut_mbit_thesis/tree/main/nb_recsys_ebm)
 
-### 4.5 Explaining recommendations:
+### 4.5: Explaining recommendations:
 - 4.5.2 Global explanation by model-specific approach: EBM models [link](https://github.com/anhtth16/ut_mbit_thesis/tree/main/nb_self_explanation)
 - 4.5.3 Global explanation by model-specific approach: DPEBM models [link](https://github.com/anhtth16/ut_mbit_thesis/tree/main/nb_self_explanation)
 - 4.5.4 Global self-explanation by white-box models and XGBoost [link](https://github.com/anhtth16/ut_mbit_thesis/tree/main/nb_self_explanation)
 - 4.5.5 KernelSHAP: Local feature importance [link](https://github.com/anhtth16/ut_mbit_thesis/tree/main/xai_posthoc)
 - 4.5.6 LIME: Localfeature importance [link](https://github.com/anhtth16/ut_mbit_thesis/tree/main/xai_posthoc)
 
-### 4.6 Evaluation explanation
+### 4.6: Evaluation explanation
 
 - 4.6.1 Modelfidelity rate-Global explanation [link](https://github.com/anhtth16/ut_mbit_thesis/tree/main/nb_xai_fidelity)
 - 4.6.2 Feature importance fidelity rate - Local explanation  [link](https://github.com/anhtth16/ut_mbit_thesis/tree/main/nb_xai_fidelity)
+
+### 4.7 Generating human-digestible explanation [pending]
+- 4.7.2 Usecase Post-explanation: extract raw term from TF-IDF features
+- 4.7.3  Usecase Post-explanation: LDA topic contribution visualization
+
+### Additional Analysis [pending]
 
 # Reproducing guidelines:
