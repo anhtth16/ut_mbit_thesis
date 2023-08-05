@@ -65,9 +65,9 @@ Total experiments: \#_models in section 4.3 * \#_potential applications dataset:
 - 4.6.1 Modelfidelity rate-Global explanation [link](https://github.com/anhtth16/ut_mbit_thesis/tree/main/nb_xai_fidelity)
 - 4.6.2 Feature importance fidelity rate - Local explanation  [link](https://github.com/anhtth16/ut_mbit_thesis/tree/main/nb_xai_fidelity)
 
-### 4.7 Generating human-digestible explanation [pending]
-- 4.7.2 Usecase Post-explanation: extract raw term from TF-IDF features
-- 4.7.3  Usecase Post-explanation: LDA topic contribution visualization
+### 4.7 Generating human-digestible explanation
+- 4.7.2 Usecase Post-explanation: extract raw term from TF-IDF features [link](https://github.com/anhtth16/ut_mbit_thesis/blob/main/nb_xai_viz/usecase_viz_logreg_explanation.ipynb)
+- 4.7.3  Usecase Post-explanation: LDA topic contribution visualization: [link](https://github.com/anhtth16/ut_mbit_thesis/blob/main/nb_xai_viz/usecase_viz_ebm_explanation.ipynb)
 
 ### Additional Analysis [pending]
 
