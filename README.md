@@ -11,9 +11,12 @@ Data: [Kaggle's CareerBuilder 2012](https://www.kaggle.com/c/job-recommendation)
 
 Apart from public libraries, please import modules in [utils](https://github.com/anhtth16/ut_mbit_thesis/tree/main/utils) folder for generating recommmendations
 
-High-resolution figures in the report: [link](https://github.com/anhtth16/ut_mbit_thesis/tree/main/figures_overleaf)
+# Summary results:
+- Final report:
+- High-resolution figures in the report: [link](https://github.com/anhtth16/ut_mbit_thesis/tree/main/figures_overleaf)
+- Summary analysis used in discussion: [link](https://github.com/anhtth16/ut_mbit_thesis/tree/main/analysis_summary)
 
-# Navigation guidelines:
+# Guidelines for navigation and reproduce results:
 
 CHECK LIST (based on Table Of Content) of the report (hyperlink to the repo)
 ### 4.1: Data pre-processing and Feature Engineering: [folder](https://github.com/anhtth16/ut_mbit_thesis/tree/main/nb_data_prep)
@@ -57,6 +60,8 @@ Each model have 2 potential sources of application.
 -  FM recsys: [link](https://github.com/anhtth16/ut_mbit_thesis/tree/main/nb_recsys_fm), [output](https://github.com/anhtth16/ut_mbit_thesis/tree/main/output_topN_myfm)
 - EBM & DPEBM recsys: [link](https://github.com/anhtth16/ut_mbit_thesis/tree/main/nb_recsys_ebm), [output](https://github.com/anhtth16/ut_mbit_thesis/tree/main/output_topN_ebm)
 
+- Compare confidence in JRS using KNN ranking data - [link](https://github.com/anhtth16/ut_mbit_thesis/blob/main/nb_analysis/Analysis_ranking_confidence_knn.ipynb) vs. random ranking data - [link](https://github.com/anhtth16/ut_mbit_thesis/blob/main/nb_analysis/Analysis_ranking_confidence_random.ipynb)
+
 ### 4.5: Explaining recommendations:
 - 4.5.2 Global explanation by model-specific approach: EBM models [link](https://github.com/anhtth16/ut_mbit_thesis/tree/main/nb_self_explanation)
 - 4.5.3 Global explanation by model-specific approach: DPEBM models [link](https://github.com/anhtth16/ut_mbit_thesis/tree/main/nb_self_explanation)
@@ -72,8 +77,5 @@ Each model have 2 potential sources of application.
 ### 4.7 Generating human-digestible explanation
 - 4.7.2 Usecase Post-explanation: extract raw term from TF-IDF features [link](https://github.com/anhtth16/ut_mbit_thesis/blob/main/nb_xai_viz/usecase_viz_logreg_explanation.ipynb)
 - 4.7.3  Usecase Post-explanation: LDA topic contribution visualization: [link](https://github.com/anhtth16/ut_mbit_thesis/blob/main/nb_xai_viz/usecase_viz_ebm_explanation.ipynb)
-
-### Additional Analysis [to update]
-- Compare confidence in JRS using KNN ranking data - [link](https://github.com/anhtth16/ut_mbit_thesis/blob/main/nb_analysis/Analysis_ranking_confidence_knn.ipynb) vs. random ranking data - [link](https://github.com/anhtth16/ut_mbit_thesis/blob/main/nb_analysis/Analysis_ranking_confidence_random.ipynb)
 
 # Reproducing guidelines:
