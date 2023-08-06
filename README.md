@@ -41,24 +41,28 @@ LDA for jobs - [link](https://github.com/anhtth16/ut_mbit_thesis/blob/main/nb_da
 ### 4.3: Training ranking models:
 **PENDING OUPTUT (Large pre-trained models - FM)**
 
-- White-Box, Black-box models: 7 models [link](https://github.com/anhtth16/ut_mbit_thesis/tree/main/nb_baseline_tabular)
-- Factorization Machine models: 4 variations [link](https://github.com/anhtth16/ut_mbit_thesis/tree/main/nb_myfm)
-- Explanable Boosting Machine models: 6 models [link](https://github.com/anhtth16/ut_mbit_thesis/tree/main/xai_recsys)
+- White-Box, Black-box models: 7 models [link](https://github.com/anhtth16/ut_mbit_thesis/tree/main/nb_baseline_tabular), [pre-trained models](https://github.com/anhtth16/ut_mbit_thesis/tree/main/output_baseline_tabular)
+- Factorization Machine models: 4 models [link](https://github.com/anhtth16/ut_mbit_thesis/tree/main/nb_myfm), [output - LARGE FILE pre-trained models]()
+- Explanable Boosting Machine models: 3 EBM models and 3 DP-EBM models [link](https://github.com/anhtth16/ut_mbit_thesis/tree/main/xai_recsys)
 
 ### 4.4: Finalize ranking results and evaluation JRS
-Generate recommendation results (top 20 jobs/user) <br>
-Total experiments: \#_models in section 4.3 * \#_potential applications dataset:
 
-- White-box & Black-box [link](https://github.com/anhtth16/ut_mbit_thesis/tree/main/nb_recsys_tabular)
-- FM [link](https://github.com/anhtth16/ut_mbit_thesis/tree/main/nb_recsys_fm)
-- EBM & DPEBM [link](https://github.com/anhtth16/ut_mbit_thesis/tree/main/nb_recsys_ebm)
+Generate top 20 recommendation: 20 jobs/ user <br>
+Output format: UserID, JobID, Y\_pred, Y\_prob, rank <br>
+(Y\_pred: predicted label, Y\_prob: probability of prediction, rank: ranking based on probability)
+
+Each model have 2 potential sources of application.
+
+- White-box & Black-box recsys: [link](https://github.com/anhtth16/ut_mbit_thesis/tree/main/nb_recsys_tabular), [output](https://github.com/anhtth16/ut_mbit_thesis/tree/main/output_topN_tabular)
+-  FM recsys: [link](https://github.com/anhtth16/ut_mbit_thesis/tree/main/nb_recsys_fm), [output](https://github.com/anhtth16/ut_mbit_thesis/tree/main/output_topN_myfm)
+- EBM & DPEBM recsys: [link](https://github.com/anhtth16/ut_mbit_thesis/tree/main/nb_recsys_ebm), [output](https://github.com/anhtth16/ut_mbit_thesis/tree/main/output_topN_ebm)
 
 ### 4.5: Explaining recommendations:
 - 4.5.2 Global explanation by model-specific approach: EBM models [link](https://github.com/anhtth16/ut_mbit_thesis/tree/main/nb_self_explanation)
 - 4.5.3 Global explanation by model-specific approach: DPEBM models [link](https://github.com/anhtth16/ut_mbit_thesis/tree/main/nb_self_explanation)
 - 4.5.4 Global self-explanation by white-box models and XGBoost [link](https://github.com/anhtth16/ut_mbit_thesis/tree/main/nb_self_explanation)
-- 4.5.5 KernelSHAP: Local feature importance [link](https://github.com/anhtth16/ut_mbit_thesis/tree/main/xai_posthoc)
-- 4.5.6 LIME: Localfeature importance [link](https://github.com/anhtth16/ut_mbit_thesis/tree/main/xai_posthoc)
+- 4.5.5 KernelSHAP: Local feature importance [link](https://github.com/anhtth16/ut_mbit_thesis/tree/main/xai_posthoc), [output](https://github.com/anhtth16/ut_mbit_thesis/tree/main/output_shap)
+- 4.5.6 LIME: Localfeature importance [link](https://github.com/anhtth16/ut_mbit_thesis/tree/main/xai_posthoc), [output](https://github.com/anhtth16/ut_mbit_thesis/tree/main/output_lime)
 
 ### 4.6: Evaluation explanation
 
