@@ -73,6 +73,7 @@ Each model have 2 potential sources of application.
 - 4.7.2 Usecase Post-explanation: extract raw term from TF-IDF features [link](https://github.com/anhtth16/ut_mbit_thesis/blob/main/nb_xai_viz/usecase_viz_logreg_explanation.ipynb)
 - 4.7.3  Usecase Post-explanation: LDA topic contribution visualization: [link](https://github.com/anhtth16/ut_mbit_thesis/blob/main/nb_xai_viz/usecase_viz_ebm_explanation.ipynb)
 
-### Additional Analysis [pending]
+### Additional Analysis [to update]
+- Compare confidence in JRS using KNN ranking data - [link](https://github.com/anhtth16/ut_mbit_thesis/blob/main/nb_analysis/Analysis_ranking_confidence_knn.ipynb) vs. random ranking data - [link](https://github.com/anhtth16/ut_mbit_thesis/blob/main/nb_analysis/Analysis_ranking_confidence_random.ipynb)
 
 # Reproducing guidelines:

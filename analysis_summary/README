@@ -1,0 +1,12 @@
+This folder contain result and analysis for all research questions.
+JRS performance evaluation:
+- Analysis_BinaryCls_full.xlsx: Performance metrics of different binary classification models
+- Analysis_Hit_rate_full.xlsx: Compare hit_rate across 17 JRS, on different potential data & Data-centric explanation
+- Model_Fidelity_Result.xlsx: Compare model fidelity results
+
+Explanation evaluation:
+- Global_Explanation.xlsx: Plot feature importance for self-explanation models: LogReg, DT, XGBoost
+
+For local explanation (SHAP, LIME), the magnitude, i.e. the absolute value of the feature importance weights or Shapley values was used for comparison 
+- LIME_Analysis_sample20.xlsx: Compare local explanation by LIME on different JRS. Compute feature importance fidelity
+- SHAP_Analysis_sample20.xlsx: Compare local explanation by LIME on different JRS. Compute feature importance fidelity
