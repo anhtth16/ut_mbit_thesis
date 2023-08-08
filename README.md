@@ -53,11 +53,11 @@ LDA for jobs - [link](https://github.com/anhtth16/ut_mbit_thesis/blob/main/nb_da
 - 4.2.2 Potential application generation by unsupervised KNN models (2 variations: knn\_lda, knn\_tfidf)
 
 ### 4.3: Training ranking models:
+You can re-train the models using notebooks or download the pre-trained models.
 
 - White-Box, Black-box models: 7 models [link](https://github.com/anhtth16/ut_mbit_thesis/tree/main/nb_baseline_tabular), [pre-trained models](https://github.com/anhtth16/ut_mbit_thesis/tree/main/output_baseline_tabular)
-- Factorization Machine models: 4 models [link](https://github.com/anhtth16/ut_mbit_thesis/tree/main/nb_myfm), [**PENDING OUPTUT (Large pre-trained models - FM)**
-]()
-- Explanable Boosting Machine models: 3 EBM models and 3 DP-EBM models [link](https://github.com/anhtth16/ut_mbit_thesis/tree/main/xai_recsys)
+- Factorization Machine models: 4 models. [link](https://github.com/anhtth16/ut_mbit_thesis/tree/main/nb_myfm). You can re-train the models using notebook (~ 5-10 mins) or download pre-trained models. Pickle pre-trained models are large (> 10GB/model), and need to be download separately [GoogleDrive link](https://drive.google.com/drive/folders/1C4RML5oziZTNQutRgIuBgi3wA5sVuJLz?usp=drive_link)
+- Explanable Boosting Machine models: 3 EBM models and 3 DPEBM models [link with pre-trained models](https://github.com/anhtth16/ut_mbit_thesis/tree/main/xai_recsys)
 
 ### 4.4: Finalize ranking results and evaluation JRS
 
