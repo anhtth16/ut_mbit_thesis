@@ -31,7 +31,7 @@ Apart from public libraries, please import all modules in [utils](https://github
 Raw data can be obtained directly from Kaggle's website or from folder data_raw.
 
 ### 4.1: Data pre-processing and Feature Engineering: [folder](https://github.com/anhtth16/ut_mbit_thesis/tree/main/nb_data_prep)
-**PENDING OUPTUT (Large dataset)**
+**NOTE: Large datasets have been compressed. Please extract them to the original format (eg: csv./ tsv.) before running the notebook.**
 
 - 4.1.1 Data cleaning 
 - 4.1.2 Data augmentation: Negative sampling for interaction data - [link](https://github.com/anhtth16/ut_mbit_thesis/blob/main/nb_data_prep/negative_sampling.ipynb)
