@@ -22,7 +22,7 @@ Data: [Kaggle's CareerBuilder 2012](https://www.kaggle.com/c/job-recommendation)
 Apart from public libraries, please import all modules in [utils](https://github.com/anhtth16/ut_mbit_thesis/tree/main/utils) folder for generating recommmendations.
 
 # Snapshot:
-- Final report: [TO UPDATE]()
+- Final report: [link](https://github.com/anhtth16/ut_mbit_thesis/blob/main/thesis_paper/Tran_MA_EEMCS.pdf)
 - High-resolution figures in the report: [link](https://github.com/anhtth16/ut_mbit_thesis/tree/main/figures_overleaf)
 - Summary analysis spreadsheets used in discussion: [link](https://github.com/anhtth16/ut_mbit_thesis/tree/main/analysis_summary)
 
